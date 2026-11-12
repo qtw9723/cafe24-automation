@@ -1,0 +1,24 @@
+# 비밀값
+.env
+.env.*
+!.env.example
+
+# 실행 산출물 (로그·결과·락)
+output/
+.cron_lock
+
+# 로컬 백업본·폐기된 설정
+*.bak
+*.bak.*
+disabled_launchd/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
